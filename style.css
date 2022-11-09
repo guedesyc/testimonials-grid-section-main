@@ -298,17 +298,18 @@ main{
 
 @media (min-width: 1440px){
 
-
-
+body{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;}
 
 main{
     display: grid;
     gap: 20px;
     grid-template-areas: 
     "daniel daniel jonathan kira"
-    "jeanette patrick patrick kira"
-    ;
-
+    "jeanette patrick patrick kira";
 }
 
 .firstdiv{
