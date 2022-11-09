@@ -1,0 +1,353 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root{
+    --violeta: hsl(263, 55%, 52%);
+    --azulescuro: hsl(217, 19%, 35%);
+    --azulescuro2: hsl(219, 29%, 14%);
+    --branco: hsl(0, 0%, 100%);
+    --cinzaclaro: hsl(0, 0%, 81%);
+    --cinzaazulado: hsl(210, 46%, 95%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Barlow Semi Condensed', Arial, sans-serif;
+
+}
+
+@media (min-width: 375px){
+body{
+    margin: 80px 20px;
+    background-color: var(--cinzaazulado);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*FIRST DIV FROM HERE */
+
+.firstdiv{
+    background: var(--violeta) url(images/bg-pattern-quotation.svg) no-repeat 200px 0px;
+
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.firstrow{
+    display: flex;
+
+}
+
+.firstrow img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.firstcolumn{
+    text-align: center;
+}
+
+.firstcolumn #name{
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+}
+
+.firstcolumn p{
+    font-weight: 500;
+    color: var(--cinzaclaro);
+    font-size: 0.8rem;
+}
+
+.first-second-column h1{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 1.3rem;
+
+}
+.first-second-column p{
+    display:flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    color: var(--cinzaclaro);
+    font-size: 0.9rem;
+
+}
+
+
+/* SECOND DIV FROM HERE !!!! */
+
+.seconddiv{
+    background-color: var(--azulescuro);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    max-width: 300px;
+}
+
+.secondrow{
+    display: flex;
+
+}
+
+.secondrow img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.secondcolumn{
+    text-align: center;
+}
+
+.secondcolumn #name{
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+}
+
+.secondcolumn p{
+    font-weight: 500;
+    color: var(--cinzaclaro);
+    font-size: 0.8rem;
+}
+
+.second-second-column h1{
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 1.4rem;
+
+}
+.second-second-column p{
+    display:flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    color: var(--cinzaclaro);
+    font-size: 0.8rem;
+}
+
+/* THIRD DIV FROM HERE*/
+.thirddiv{
+    background-color: var(--branco);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    max-width: 300px;
+}
+
+.thirdrow{
+    display: flex;
+
+}
+
+.thirdrow img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.thirdcolumn{
+    text-align: center;
+}
+
+.thirdcolumn #name{
+    font-weight: 600;
+    color: var(--azulescuro);
+    font-size: 1rem;
+}
+
+.thirdcolumn p{
+    font-weight: 500;
+    color: var(--cinzaclaro);
+    font-size: 0.8rem;
+}
+
+.third-second-column h1{
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--azulescuro);
+
+}
+.third-second-column p{
+    display:flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    color: var(--cinzaclaro);
+    font-size: 0.9rem;
+}
+
+/* FOURTH DIV FROM HERE*/
+.fourthdiv{
+    background-color: var(--azulescuro2);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    max-width: 300px;
+}
+
+.fourthrow{
+    display: flex;
+
+}
+
+.fourthrow img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.fourthcolumn{
+    text-align: center;
+}
+
+.fourthcolumn #name{
+    font-weight: 600;
+    color: var(--branco);
+    font-size: 1rem;
+}
+
+.fourthcolumn p{
+    font-weight: 500;
+    color: var(--cinzaclaro);
+    font-size: 0.8rem;
+}
+
+.fourth-second-column h1{
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--branco);
+
+}
+.fourth-second-column p{
+    display:flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    color: var(--cinzaclaro);
+    font-size: 0.85rem;
+}
+
+/* FIFTH DIV FROM HERE*/
+.fifthdiv{
+    background-color: var(--branco);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    max-width: 300px;
+}
+
+.fifthrow{
+    display: flex;
+
+}
+
+.fifthrow img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.fifthcolumn{
+    text-align: left;
+}
+
+.fifthcolumn #name{
+    font-weight: 600;
+    color: var(--azulescuro);
+    font-size: 1rem;
+}
+
+.fifthcolumn p{
+    font-weight: 500;
+    color: var(--cinzaclaro);
+    font-size: 0.8rem;
+}
+
+.fifth-second-column h1{
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: var(--azulescuro);
+    font-weight: 600;
+    font-size: 1.3rem;
+
+}
+.fifth-second-column p{
+    display:flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    color: var(--cinzaclaro);
+    font-size: 0.9rem;
+}
+
+}
+
+@media (min-width: 1440px){
+
+
+
+
+main{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira"
+    ;
+
+}
+
+.firstdiv{
+ background: var(--violeta) url(images/bg-pattern-quotation.svg) no-repeat 300px 0px;
+    grid-area: daniel;
+    max-width: 500px;
+    margin: 0px;
+    padding: 30px;
+}
+
+.seconddiv{
+    grid-area: jonathan;
+    max-width: 200px;
+    margin: 0px;
+    padding: 30px;
+}
+
+.thirddiv{
+    grid-area: jeanette;
+    max-width: 200px;
+    margin: 0px;
+    padding: 30px;
+}
+
+.fourthdiv{
+    grid-area: patrick;
+    max-width: 500px;
+    margin: 0px;
+    padding: 30px;
+}
+
+.fifthdiv{
+    grid-area: kira;
+    max-width: 182px;
+    margin: 0px;
+    padding: 30px;
+
+
+}
+
+
+}
